@@ -1,0 +1,13 @@
+body {
+    font-family: palatino;
+    background-color: rgb(184, 245, 245)
+    font-size: 14pt;
+}
+
+.header h2 {
+color: rgb(16, 17, 17);
+}
+
+p {
+    font-weight: 300;
+}
