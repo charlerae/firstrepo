@@ -30,8 +30,9 @@ img {
     height: auto;
     padding: 5px;
     border: 3px;
-    background-color: black;
+    background-color: teal;
     float: center;
+    border-radius: 15%;
 }
 
 .work img {
@@ -56,13 +57,24 @@ ul {
 article {
     float: right;
     text-align: right;
-    border: 3px solid black;
+    border: 5px solid antiquewhite;
     padding: 5px;
     height: auto;
     width: 25%;
     margin: 20px;
+    border-radius: 15%;
+    background-color: rgb(174, 174, 247);
 }
 
 footer {
     text-align: right;
+}
+
+.btn  {
+    margin: 20px;
+    border-color: teal;
+    border: 5px;
+    background-color: rgb(174, 174, 247);
+    padding: 15;
+
 }
