@@ -2,23 +2,27 @@ body {
     font-family: palatino;
     background-image: url("watercolor-1.jpg");
     font-size: 14pt;
+    
 }
 
-.header h2 {
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
+header {
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/watercolor-background-with-lotus-flower-vector-17821340.jpg");
+    margin: 0px;
+    padding: 50px, 60px;
+    border: 8px solid black;
+    text-align: center;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px;
-    padding: 50px, 60px;
-    border: 10px solid black;
-    height: 200;
-    width: 300;
-    text-align: center;
-    vertical-align: middle;
-    background-color: rgb(115, 230, 238);
+
+   
+    
 }
 
 .intro {
@@ -33,6 +37,7 @@ img {
     background-color: teal;
     float: center;
     border-radius: 15%;
+    opacity: .85;
 }
 
 .work img {
@@ -40,7 +45,6 @@ img {
 }
 
 div { 
-    float: left;
     background-image: url('../../images/watercolor-1.jpg');
 }
 
@@ -52,6 +56,7 @@ div {
 
 ul {
     text-align: center;
+    left: 50%;
 }
 
 article {
@@ -63,18 +68,88 @@ article {
     width: 25%;
     margin: 20px;
     border-radius: 15%;
-    background-color: rgb(174, 174, 247);
+    background-color: rgb(158, 241, 207);
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/watercolor-background-with-lotus-flower-vector-17821340.jpg");
+}
+
+
+
+.button  {
+    margin: 20px;
+    border-color: teal;
+    border: 5px;
+    background-color: antiquewhite;
+    padding: 15;
+}
+
+ul {
+    background-color: antiquewhite;
+    width: 150px;
+    height: auto;
+    border: 3px solid rgb(158, 241, 207) ;
+    padding: 20px;
+    align-content: left;
+}
+
+.close {
+    background: rgb(115, 230, 238);
+    height: auto;
+    width: 1210px;
+    position: static;
+    left: 25%;
+    padding: 20px;
+    border-style: double;
+    border: 5px double antiquewhite;
+    opacity: .6;
+}
+
+li {
+    position: static;
+   
+}
+
+.codelinks {
+    background-clip: content-box;
 }
 
 footer {
     text-align: right;
+    color: rgb(148, 145, 145)
+    color
+    font-family: palatino;
+    font-variant: small-caps;
+    font-size: 24px;
+    font-weight: bolder;
+    clear: both;
+    position: relative;
+    display: block;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/31/91/yellow-watercolor-background-vector-5143191.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    opacity: .7;
 }
 
-.btn  {
-    margin: 20px;
-    border-color: teal;
-    border: 5px;
-    background-color: rgb(174, 174, 247);
-    padding: 15;
-
+.contactbox {
+    height: 40px;
+    width: auto;
+    background-color: rgb(148, 145, 145);
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(148, 145, 145);
+    font-family: palatino;
+  }
+
+ .dropdown {
+     float: center;
+    overflow: hidden; 
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .dropdown:hover {
+    background-color: rgb(255, 170, 86);
+ }
