@@ -1,8 +1,7 @@
 body {
-    font-family: palatino;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("watercolor-1.jpg");
-    font-size: 14pt;
-    
+    font-size: 14pt; 
 }
 
 
@@ -20,9 +19,6 @@ header {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-   
-    
 }
 
 .intro {
@@ -54,10 +50,7 @@ div {
     text-align: center;
 }
 
-ul {
-    text-align: center;
-    left: 50%;
-}
+
 
 article {
     float: right;
@@ -114,9 +107,8 @@ li {
 
 footer {
     text-align: right;
-    color: rgb(148, 145, 145)
-    color
-    font-family: palatino;
+    color: rgb(148, 145, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-size: 24px;
     font-weight: bolder;
