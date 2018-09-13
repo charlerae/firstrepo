@@ -66,13 +66,18 @@ article {
 }
 
 
-
 .button  {
     margin: 20px;
     border-color: teal;
     border: 5px;
     background-color: antiquewhite;
     padding: 15;
+
+}
+
+.dropdown-content {
+    padding: 0 0 0 100px;
+    display: inline-block;
 }
 
 ul {
@@ -87,7 +92,7 @@ ul {
 .close {
     background: rgb(115, 230, 238);
     height: auto;
-    width: 1210px;
+    width: 98%;
     position: static;
     left: 25%;
     padding: 20px;
@@ -96,14 +101,7 @@ ul {
     opacity: .6;
 }
 
-li {
-    position: static;
-   
-}
 
-.codelinks {
-    background-clip: content-box;
-}
 
 footer {
     text-align: right;
@@ -133,13 +131,15 @@ footer {
     overflow: hidden;
     background-color: rgb(148, 145, 145);
     font-family: palatino;
+   
   }
 
  .dropdown {
-     float: center;
+     float: left;
     overflow: hidden; 
     display: inline-block;
     vertical-align: middle;
+    margin-right: 20px;
  }
 
  .dropdown:hover {
