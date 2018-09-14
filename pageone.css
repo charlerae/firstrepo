@@ -1,3 +1,6 @@
+
+
+/*Setting font type and size forbody and adding background image */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("watercolor-1.jpg");
@@ -5,6 +8,11 @@ body {
 }
 
 
+div { 
+    background-image: url('../../images/watercolor-1.jpg');
+}
+
+/* Adding background image to header */
 header {
     background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/watercolor-background-with-lotus-flower-vector-17821340.jpg");
     margin: 0px;
@@ -17,14 +25,14 @@ header {
     background-size: cover;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+/* Adding a Navagation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(148, 145, 145);
+    font-family: palatino;
+  }
 
-.intro {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
+  /* Adding author photo with border  */
 img {
     width: 140px;
     height: auto;
@@ -36,22 +44,26 @@ img {
     opacity: .85;
 }
 
-.work img {
-    display: block;
+/* adding a box for design. Making it light blue with double antiquewhite border and a 60% opacity that changes size with the window  */
+.getstart {
+    background: rgb(115, 230, 238);
+    height: auto;
+    width: 98%;
+    position: static;
+    left: 25%;
+    padding: 20px;
+    border-style: double;
+    border: 5px double antiquewhite;
+    opacity: .6;
 }
 
-div { 
-    background-image: url('../../images/watercolor-1.jpg');
-}
-
+/* changing border and padding to only the first two paragraphs in the body  */
 .intro {
     border: 5px;
     padding: 10px;
-    text-align: center;
 }
 
-
-
+/* Making a right aligned article that provides links to code tool and learning websites  */
 article {
     float: right;
     text-align: right;
@@ -65,21 +77,7 @@ article {
     background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/watercolor-background-with-lotus-flower-vector-17821340.jpg");
 }
 
-
-.button  {
-    margin: 20px;
-    border-color: teal;
-    border: 5px;
-    background-color: antiquewhite;
-    padding: 15;
-
-}
-
-.dropdown-content {
-    padding: 0 0 0 100px;
-    display: inline-block;
-}
-
+/* Setting size and making background color of text boxes for lists antiquewhite. Aligning boxes left  */
 ul {
     background-color: antiquewhite;
     width: 150px;
@@ -89,21 +87,8 @@ ul {
     align-content: left;
 }
 
-.close {
-    background: rgb(115, 230, 238);
-    height: auto;
-    width: 98%;
-    position: static;
-    left: 25%;
-    padding: 20px;
-    border-style: double;
-    border: 5px double antiquewhite;
-    opacity: .6;
-}
-
-
-
-footer {
+/* Adding a background Image with a 70% opacity. Changing font and aligning text  */
+ footer {
     text-align: right;
     color: rgb(148, 145, 145);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -121,27 +106,9 @@ footer {
     opacity: .7;
 }
 
+/* Creating a box to style the contact email. Making with of box change size with window and changing color to grey */
 .contactbox {
     height: 40px;
     width: auto;
     background-color: rgb(148, 145, 145);
 }
-
-.navbar {
-    overflow: hidden;
-    background-color: rgb(148, 145, 145);
-    font-family: palatino;
-   
-  }
-
- .dropdown {
-     float: left;
-    overflow: hidden; 
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 20px;
- }
-
- .dropdown:hover {
-    background-color: rgb(255, 170, 86);
- }
